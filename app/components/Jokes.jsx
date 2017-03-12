@@ -1,5 +1,13 @@
 import React, { Component } from 'react'
 
+// const instaFeed = instaData.map(function(gram){
+//     return (
+//       <div key="feed">
+//             <TableRowColumn>{gram.image}</TableRowColumn>
+//             <TableRowColumn>{gram.whatever}</TableRowColumn>
+//       </div>
+//   );
+
 export default class BonesJokes extends Component {
   componentDidMount() {
     this.nextJoke()

@@ -1,0 +1,39 @@
+
+.container {
+	align-content: space-around
+}
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-around
+}
+.flex-grid-thirds .col1third {
+  width: 32%;
+}
+.flex-grid-thirds .col2thirds {
+  width: 64%;
+}
+
+.flex-grid-fourths {
+  display: flex;
+  justify-content: space-around
+}
+.flex-grid-fourths .col1fourth {
+  width: 24%;
+}
+.flex-grid-fourths .col2fourths {
+  width: 48%;
+}
+.flex-grid-fourths .col3fourths {
+  width: 72%;
+}
+
+
+.flex-grid-half {
+  display: flex;
+  justify-content: space-around
+}
+.flex-grid-half .col {
+  width: 48%;
+}
+
